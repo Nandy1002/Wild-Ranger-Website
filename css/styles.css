@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* z-index: 100; */
+
+}
+
+.logo {
+    font-size: 2em;
+    color: #359381;
+    pointer-events: none;
+    margin-right: 350px;
+}
+
+.navi a {
+    text-decoration: none;
+    color: #359381;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.navi a:hover,
+.nav a.active {
+    background-color: #359381;
+    color: #ffff;
+
+}
+
+.jungle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 7em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.jungle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+
+}
+
+.extragap {
+    position: relative;
+    background-color: #003329;
+    height: 100px;
+}
+
+.custom-shape-divider-top-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1 svg {
+    position: relative;
+    display: block;
+    width: calc(147% + 1.3px);
+    height: 175px;
+    z-index: 100;
+}
+
+.custom-shape-divider-top-1 .shape-fill {
+    fill: #003329;
+}
+
+.profile-img {
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fowlcation.com%2Fstem%2FEndangered-Animals-of-the-Rainforest&psig=AOvVaw1UAhcex2CXXf35ly3pAoka&ust=1683403337414000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICPr6L83v4CFQAAAAAdAAAAABAJ') 0 0 no-repeat;
+    margin: 0 auto;
+    width: 256px;
+    height: 256px;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.profile-img.edge {
+    border: 16px solid #FFF;
+    -moz-box-shadow:
+        1px 1px 5px rgba(0, 0, 0, 0.2),
+        inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+    -webkit-box-shadow:
+        1px 1px 5px rgba(0, 0, 0, 0.2),
+        inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+    box-shadow:
+        1px 1px 5px rgba(0, 0, 0, 0.2),
+        inset 1px 1px 15px rgba(100, 100, 100, 0.15);
+}
+
+/* Clipped Image */
+.profile-img-wrapper {
+    width: 256px;
+    overflow: hidden;
+    /* for Firefox */
+    margin: 0 auto;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.divider-top-2,
+.divider-top-3,
+.divider-top-4 {
+    position: relavite;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.divider-top-2 svg,
+.divider-top-3 svg,
+.divider-top-4 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.divider-top-2 .shape-fill {
+    fill: #198754;
+}
+
+.divider-top-3 .shape-fill {
+    fill: #beb27a;
+}
+
+.divider-top-4 .shape-fill {
+    fill: #83be7a;
+}
+
+.link-secondary {
+    color: black;
+}
+
+.nav-item a:hover,.nav-item a:active {
+    color: #003329;
+    font-style: bold;
+    border-bottom: 3px solid #003329;
+}
